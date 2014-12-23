@@ -1,7 +1,0 @@
-C:\Users\drew_c\WhatColorIsIt\WhatColorIsIt\bin\Debug\WhatColorIsIt.exe
-C:\Users\drew_c\WhatColorIsIt\WhatColorIsIt\bin\Debug\WhatColorIsIt.pdb
-C:\Users\drew_c\WhatColorIsIt\WhatColorIsIt\obj\x86\Debug\WhatColorIsIt.Properties.Resources.resources
-C:\Users\drew_c\WhatColorIsIt\WhatColorIsIt\obj\x86\Debug\WhatColorIsIt.WhatColorIsItForm.resources
-C:\Users\drew_c\WhatColorIsIt\WhatColorIsIt\obj\x86\Debug\WhatColorIsIt.csproj.GenerateResource.Cache
-C:\Users\drew_c\WhatColorIsIt\WhatColorIsIt\obj\x86\Debug\WhatColorIsIt.exe
-C:\Users\drew_c\WhatColorIsIt\WhatColorIsIt\obj\x86\Debug\WhatColorIsIt.pdb
