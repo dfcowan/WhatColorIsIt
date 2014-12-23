@@ -72,15 +72,21 @@ namespace WhatColorIsIt
         {
             DateTime now = DateTime.Now;
 
-            int hour = now.Hour;
-            int minute = now.Minute;
-            int second = now.Second;
+            String hexHour = now.Hour.ToString("00");
+            int decHour = Convert.ToInt32(hexHour, 16);
+            
+            String hexMinute = now.Minute.ToString("00");
+            int decMinute = Convert.ToInt32(hexMinute, 16);
+            
+            String hexSecond = now.Second.ToString("00");
+            int decSecond = Convert.ToInt32(hexSecond, 16);
+            
             int OFFSET = 50;
+            
+            this.BackColor = Color.FromArgb(decHour, decMinute, decSecond);
+            lblTime.ForeColor = Color.FromArgb(decHour + OFFSET, decMinute + OFFSET, decSecond + OFFSET);
 
-            this.BackColor = Color.FromArgb(hour, minute, second);
-            lblTime.ForeColor = Color.FromArgb(hour + OFFSET, minute + OFFSET, second + OFFSET);
-
-            lblTime.Text = "#" + hour.ToString("00") + ":" + minute.ToString("00") + ":" + second.ToString("00");
+            lblTime.Text = "#" + hexHour + ":" + hexMinute + ":" + hexSecond;
         }
 
         private void UpdateLocation()
